@@ -3,18 +3,17 @@
 int main() {
     float base, altura, area;
 
-    // Entrada de dados
-    printf("Digite a base do triângulo: ");
+    printf("Digite a base do triÃ¢ngulo: ");
     scanf("%f", &base);
 
-    printf("Digite a altura do triângulo: ");
+    printf("Digite a altura do triÃ¢ngulo: ");
     scanf("%f", &altura);
 
-    // Cálculo da área
+    // CÃ¡lculo da Ã¡rea
     area = (base * altura) / 2;
 
-    // Saída do resultado
-    printf("A área do triângulo é: %.2f\n", area);
+    // resultado
+    printf("A Ã¡rea do triÃ¢ngulo Ã©: %.2f\n", area);
 
     return 0;
 }
