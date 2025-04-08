@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    float largura, comprimento, area;
+
+    // Entrada de dados
+    printf("Digite a largura do terreno (em metros): ");
+    scanf("%f", &largura);
+    
+    printf("Digite o comprimento do terreno (em metros): ");
+    scanf("%f", &comprimento);
+
+    // Cálculo da área
+    area = largura * comprimento;
+
+    // Exibindo a área
+    printf("A área do terreno é: %.2f metros quadrados\n", area);
+
+    return 0;
+}
