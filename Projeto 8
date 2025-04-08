@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int valor, c10, c5, c1;
+
+    // Entrada de dados
+    printf("Digite o valor a ser retirado: R$ ");
+    scanf("%d", &valor);
+
+    // Inicializando a quantidade de cédulas
+    c10 = c5 = c1 = 0;
+
+    // Calculando a quantidade de cédulas de R$ 10
+    c10 = valor / 10;
+    valor = valor % 10;
+
+    // Calculando a quantidade de cédulas de R$ 5
+    c5 = valor / 5;
+    valor = valor % 5;
+
+    // Calculando a quantidade de cédulas de R$ 1
+    c1 = valor;
+
+    // Exibindo a quantidade de cédulas
+    printf("Serão entregues:\n");
+    printf("Cédulas de R$ 10: %d\n", c10);
+    printf("Cédulas de R$ 5: %d\n", c5);
+    printf("Cédulas de R$ 1: %d\n", c1);
+
+    return 0;
+}
