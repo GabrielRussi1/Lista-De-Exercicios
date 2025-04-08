@@ -16,7 +16,7 @@ int main() {
     // Cálculo do gasto total
     gasto_total = (distancia / consumo) * preco_litro;
 
-    // Saída do resultado
+    // resultado
     printf("O gasto total com combustível será de: R$ %.2f\n", gasto_total);
 
     return 0;
