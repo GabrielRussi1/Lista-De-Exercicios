@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int frangos;
+    float custo_por_frango = 11.00, custo_total;
+
+  // tenho orgulho dessa
+    printf("Digite a quantidade de frangos na granja: ");
+    scanf("%d", &frangos);
+
+    // Cálculo do custo total
+    custo_total = frangos * custo_por_frango;
+
+    printf("O gasto total da granja para marcar os frangos é: R$ %.2f\n", custo_total);
+
+    return 0;
+}
