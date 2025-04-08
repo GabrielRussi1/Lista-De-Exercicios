@@ -3,7 +3,8 @@
 int main() {
     float largura, comprimento, area;
 
-    // Entrada de dados
+// essa o chatgpt me ajudou
+
     printf("Digite a largura do terreno (em metros): ");
     scanf("%f", &largura);
     
