@@ -3,7 +3,6 @@
 int main() {
     float salario, porcentagem, aumento, novo_salario;
 
-    // Entrada de dados
     printf("Digite o valor do salário: R$ ");
     scanf("%f", &salario);
     
