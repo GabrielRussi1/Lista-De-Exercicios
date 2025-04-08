@@ -3,7 +3,6 @@
 int main() {
     int valor, c10, c5, c1;
 
-    // Entrada de dados
     printf("Digite o valor a ser retirado: R$ ");
     scanf("%d", &valor);
 
