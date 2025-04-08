@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float altura_pessoa, sombra_pessoa, sombra_predio, altura_predio;
+// meio dificil essa ne?
+
+    printf("Digite a sua altura (em metros): ");
+    scanf("%f", &altura_pessoa);
+
+    printf("Digite o comprimento da sua sombra (em metros): ");
+    scanf("%f", &sombra_pessoa);
+
+    printf("Digite o comprimento da sombra do prédio (em metros): ");
+    scanf("%f", &sombra_predio);
+
+    // Cálculo da altura do prédio
+    altura_predio = (altura_pessoa * sombra_predio) / sombra_pessoa;
+
+    printf("A altura aproximada do prédio é: %.2f metros\n", altura_predio);
+
+    return 0;
+}
