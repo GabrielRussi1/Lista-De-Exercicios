@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float raio, altura, volume;
+    const float PI = 3.1416;
+
+    printf("Digite o raio da base da caixa d'agua (em metros): ");
+    scanf("%f", &raio);
+
+    printf("Digite a altura da caixa d'agua (em metros): ");
+    scanf("%f", &altura);
+
+    volume = PI * raio * raio * altura;
+
+    printf("O volume da caixa d'agua é: %.2f metros cúbicos\n", volume);
+
+    return 0;
+}
