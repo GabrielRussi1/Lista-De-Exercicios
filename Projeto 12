@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int pequeno, medio, grande;
+    float total;
+
+    // Entrada de dados
+    printf("Digite a quantidade de camisetas pequenas vendidas: ");
+    scanf("%d", &pequeno);
+    
+    printf("Digite a quantidade de camisetas médias vendidas: ");
+    scanf("%d", &medio);
+    
+    printf("Digite a quantidade de camisetas grandes vendidas: ");
+    scanf("%d", &grande);
+
+    // Cálculo do total arrecadado
+    total = (pequeno * 10) + (medio * 12) + (grande * 15);
+
+    // Exibindo o total arrecadado
+    printf("O valor total arrecadado será: R$ %.2f\n", total);
+
+    return 0;
+}
