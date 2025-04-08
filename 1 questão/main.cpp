@@ -3,15 +3,15 @@
 int main() {
     float numero, metade;
 
-    // Solicita ao usuário um número real
-    printf("Digite um número real: ");
+    // Solicita ao usuÃ¡rio um nÃºmero real
+    printf("Digite um nÃºmero real: ");
     scanf("%f", &numero);
 
-    // Calcula a metade do número
+    // Calcula a metade do nÃºmero
     metade = numero / 2;
 
-    // Exibe o resultado
-    printf("A metade de %.2f é %.2f\n", numero, metade);
+   // pra primeiro codigo tÃ¡ bom
+    printf("A metade de %.2f Ã© %.2f\n", numero, metade);
 
     return 0;
 }
