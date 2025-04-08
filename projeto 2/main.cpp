@@ -3,15 +3,15 @@
 int main() {
     float numero, dobro;
 
-    // Solicita ao usuário um número real
-    printf("Digite um número: ");
+    // Solicita ao usuÃ¡rio um nÃºmero real
+    printf("Digite um nÃºmero: ");
     scanf("%f", &numero);
 
-    // Calcula o dobro do número
+    // Calcula o dobro do nÃºmero
     dobro = numero * 2;
 
-    // Exibe o resultado
-    printf("O dobro de %.2f é %.2f\n", numero, dobro);
+    // resultado
+    printf("O dobro de %.2f Ã© %.2f\n", numero, dobro);
 
     return 0;
 }
