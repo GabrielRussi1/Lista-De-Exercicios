@@ -3,7 +3,6 @@
 int main() {
     int A, B, temp;
 
-    // Entrada de dados
     printf("Digite o valor de A: ");
     scanf("%d", &A);
     
@@ -15,7 +14,7 @@ int main() {
     A = B;
     B = temp;
 
-    // Saída do resultado
+    // resultado
     printf("Após a troca:\n");
     printf("A = %d\n", A);
     printf("B = %d\n", B);
