@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int horas_normais, horas_extras;
+    float salario_bruto, salario_liquido;
+
+    printf("Digite a quantidade de horas normais trabalhadas: ");
+    scanf("%d", &horas_normais);
+
+    printf("Digite a quantidade de horas extras trabalhadas: ");
+    scanf("%d", &horas_extras);
+
+    // Cálculo do salário bruto
+    salario_bruto = (horas_normais * 10) + (horas_extras * 15);
+
+    // Cálculo do salário líquido (descontando 10%)
+    salario_liquido = salario_bruto - (salario_bruto * 0.10);
+
+    // resultados
+    printf("Salário bruto: R$ %.2f\n", salario_bruto);
+    printf("Salário líquido (após desconto de 10%%): R$ %.2f\n", salario_liquido);
+
+    return 0;
+}
