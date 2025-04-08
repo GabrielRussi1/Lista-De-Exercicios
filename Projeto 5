@@ -3,7 +3,6 @@
 int main() {
     float distancia, consumo, preco_litro, gasto_total;
 
-    // Entrada de dados
     printf("Digite a distância a ser percorrida (em Km): ");
     scanf("%f", &distancia);
     
