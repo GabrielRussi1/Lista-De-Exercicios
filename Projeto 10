@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int paes, broas;
+    float total, poupanca;
+
+    // Entrada de dados
+    printf("Digite a quantidade de pães franceses vendidos: ");
+    scanf("%d", &paes);
+    
+    printf("Digite a quantidade de broas vendidas: ");
+    scanf("%d", &broas);
+
+    // Cálculos
+    total = (paes * 0.12) + (broas * 1.50);  // Total arrecadado
+    poupanca = total * 0.10;  // 10% do total para a poupança
+
+    // Exibição dos resultados
+    printf("Total arrecadado: R$ %.2f\n", total);
+    printf("Valor a ser guardado na poupança: R$ %.2f\n", poupanca);
+
+    return 0;
+}
