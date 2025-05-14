@@ -1,0 +1,508 @@
+Questão 1: Qual é o tipo de retorno padrão da função main() em C ANSI?
+
+Alternativas:
+
+a) void
+b) char
+c) double
+d) int
+e) float
+
+Resposta correta:
+
+d) int
+
+---------
+
+Questão 2: Qual é a função usada para alocar memória dinamicamente em C ANSI?
+
+Alternativas:
+
+a) new
+b) malloc()
+c) allocate
+d) create
+e) alloc
+
+Resposta correta:
+
+b) malloc()
+----------------------------
+Questão 3: Como declarar um ponteiro para um inteiro em C?
+
+Alternativas:
+
+a) int ptr;
+b) *int ptr;
+c) int *ptr;
+d) ptr int;
+e) int@ptr
+
+Resposta correta:
+c) int *ptr;
+-------------------------------------
+
+Questão 4: Qual é o operador para acessar o valor apontado por um ponteiro?
+
+Alternativas:
+
+a) &
+b) *
+c) ->
+d) .
+e) #
+
+Resposta correta:
+b) *
+----------------
+
+Questão 5: Qual é a diretiva de pré-processador usada para incluir um arquivo de cabeçalho?
+
+Alternativas:
+
+a) #import
+b) #include
+c) #define
+d) #header
+e) #add
+
+Resposta correta:
+b) #include
+
+----------------
+Questão 6: Qual é a função usada para liberar memória alocada dinamicamente?
+
+Alternativas:
+
+a) release()
+b) delete
+c) free()
+d) unalloc()
+e) clear()
+
+Resposta correta:
+c) free()
+
+--------------------
+
+Questão 7: Qual é o tamanho em bytes do tipo int no C ANSI (em sistemas 32-bit)?
+
+Alternativas:
+
+a) 1
+b) 2
+c) 4
+d) 8
+e) Depende do compilador
+Resposta correta:
+c) 4
+
+----------------------
+
+Questão 8: Como declarar uma constante inteira com valor 10 em C?
+
+Alternativas:
+
+a) const int x = 10;
+b) int const x = 10;
+c) constant x = 10;
+d) #define x 10
+e) final int x = 10;
+Resposta correta:
+
+a) const int x = 10;
+
+-----------------------------
+
+Questão 9: Qual é a função usada para imprimir um caractere na saída padrão?
+Alternativas:
+
+a) print()
+b) printf()
+c) putchar()
+d) puts()
+e) write()
+
+Resposta correta:
+c) putchar()
+
+----------------------------
+
+Questão 10: Qual é o formato usado em printf para imprimir um float?
+
+Alternativas:
+
+a) %d
+b) %c
+c) %s
+d) %f
+e) %lf
+
+Resposta correta:
+d) %f
+
+-------------------
+
+Questão 11: O que NULL representa em C?
+
+Alternativas:
+
+a) O número 0.
+b) Um ponteiro nulo.
+c) Uma string vazia.
+d) Um valor indefinido.
+e) O fim de um arquivo.
+
+Resposta correta:
+b) Um ponteiro nulo.
+
+----------------------------------
+
+Questão 12: Qual é a estrutura de controle usada para decisões múltiplas em C?
+
+Alternativas:
+
+a) if-else
+b) switch-case
+c) for
+d) while
+e) do-while
+
+Resposta correta:
+b) switch-case
+
+--------------------------
+Questão 13: Qual é a diferença entre ++i e i++?
+
+Alternativas:
+
+a) Nenhuma, são equivalentes.
+b) ++i incrementa antes de usar; i++ incrementa depois.
+c) ++i soma 2, i++ soma 1.
+d) ++i é inválido em C ANSI.
+e) i++ só funciona em loops.
+
+Resposta correta:
+b) ++i incrementa antes de usar; i++ incrementa depois.
+
+-----------------------------------
+Questão 14: Qual é a forma correta de declarar um array de 5 inteiros?
+
+Alternativas:
+
+a) int array[5];
+b) array int[5];
+c) int[5] array;
+d) int array = [5];
+e) int array(5);
+
+Resposta correta:
+a) int array[5];
+
+--------------------------
+Questão 15: Qual função lê uma string da entrada padrão?
+
+Alternativas:
+
+a) scanf()
+b) fgets()
+c) getchar()
+d) read()
+e) input()
+
+Resposta correta:
+b) fgets()
+
+---------------------------
+Questão 16: Como declarar uma função que não retorna valor?
+
+Alternativas:
+
+a) void func();
+b) null func();
+c) none func();
+d) func() -> void;
+e) empty func();
+
+Resposta correta:
+a) void func();
+
+------------------------------
+Questão 17: Qual é o valor de 5 / 2 em C?
+
+Alternativas:
+
+a) 2.5
+b) 2
+c) 3
+d) 2.0
+e) Erro
+
+Resposta correta:
+b) 2
+----------------------------
+Questão 18: Qual é o operador para comparar igualdade?
+
+Alternativas:
+
+a) =
+b) ==
+c) ===
+d) !=
+e) <>
+
+Resposta correta:
+b) ==
+
+---------------------------
+---
+
+Questão 19: Qual é a palavra-chave para sair de um loop prematuramente?
+
+Alternativas:
+a) stop
+b) exit
+c) break
+d) return
+e) continue
+
+Resposta correta:
+c) break
+
+-----------------------
+Questão 20: Qual é a estrutura usada para agrupar variáveis de tipos diferentes?
+
+Alternativas:
+
+a) array
+b) struct
+c) union
+d) class
+e) tuple
+
+Resposta correta:
+b) struct
+
+------------------------
+Questão 21: Qual é a função para abrir um arquivo em C?
+
+Alternativas:
+
+a) open()
+b) fopen()
+c) readfile()
+d) file_open()
+e) loadfile()
+
+Resposta correta:
+b) fopen()
+--------------------------
+Questão 22: Qual é o tipo de dado para representar um caractere em C?
+
+Alternativas:
+
+a) string
+b) char
+c) byte
+d) letter
+e) chr
+
+Resposta correta:
+b) char
+
+-------------------------
+Questão 23: O que sizeof(int) retorna?
+
+Alternativas:
+
+a) O valor do inteiro.
+b) O tamanho em bytes do tipo int.
+c) O número de bits do inteiro.
+d) O endereço de memória.
+e) Um ponteiro para um inteiro
+
+Resposta correta:
+b) O tamanho em bytes do tipo int.
+
+-----------------------------
+Questão 24: Qual é a função para comparar duas strings?
+
+Alternativas:
+
+a) strcmp()
+b) compare()
+c) string_diff()
+d) strdiff()
+e) cmp()
+
+Resposta correta:
+a) strcmp()
+----------------------
+
+Questão 25: Como declarar um ponteiro para uma função que retorna int?
+
+Alternativas:
+
+a) int (*ptr)();
+b) int *ptr();
+c) ptr int();
+d) function int ptr();
+e) int ptr();
+
+Resposta correta:
+
+a) int (*ptr)();
+-------------------------
+Questão 26: Qual é o escopo de uma variável declarada dentro de um bloco {}?
+
+Alternativas:
+
+a) Global.
+b) Local ao bloco.
+c) Permanente.
+d) Externo.
+e) Estático.
+
+Resposta correta:
+
+b) Local ao bloco.
+
+---------------------
+Questão 27: Qual é a palavra-chave para definir um tipo personalizado?
+
+Alternativas:
+
+a) newtype
+b) typedef
+c) type
+d) def
+e) alias
+
+Resposta correta:
+
+b) typedef
+-------------------
+Questão 28: Qual é o modificador para variáveis que não podem ser alteradas?
+
+Alternativas:
+
+a) static
+b) volatile
+c) const
+d) fixed
+e) final
+
+Resposta correta:
+
+c) const
+
+-------------------------
+Questão 29: Qual é a função para copiar uma string?
+
+Alternativas:
+
+a) strcpy()
+b) copy()
+c) stringcpy()
+d) memcpy()
+e) dup()
+
+Resposta correta:
+
+a) strcpy()
+
+-------------------------
+Questão 30: Qual é o cabeçalho que contém a definição de printf?
+
+Alternativas:
+
+a) <iostream>
+b) <console>
+c) <stdio.h>
+d) <print>
+e) <output>
+
+Resposta correta:
+
+c) <stdio.h>
+
+---------------------------EXPLICAÇÕESZIINHAS BÁSICAS PARA ENTENDER------------------------------
+
+1) int
+Porque o padrão da função main() em C ANSI é retornar um inteiro, geralmente 0 indicando sucesso.
+
+2) malloc()
+Porque malloc() é a função padrão em C para alocar memória dinamicamente.
+
+*3) int ptr;
+Porque é assim que se declara um ponteiro para inteiro: tipo seguido de * e o nome.
+
+4) *
+Porque o operador * acessa o valor apontado por um ponteiro (desreferenciação).
+
+5) #include
+Porque essa diretiva é usada para incluir arquivos de cabeçalho no programa.
+
+6) free()
+Porque free() é a função que libera memória alocada dinamicamente.
+
+7) 4
+Porque em sistemas de 32 bits, o tipo int ocupa 4 bytes.
+
+8) const int x = 10;
+Porque essa é a sintaxe correta para declarar uma constante inteira em C.
+
+9) putchar()
+Porque putchar() imprime um único caractere na saída padrão.
+
+10) %f
+Porque %f é o especificador de formato usado para imprimir float com printf.
+
+11) Um ponteiro nulo
+Porque NULL é usado para representar um ponteiro que não aponta para lugar nenhum.
+
+12) switch-case
+Porque switch-case permite selecionar entre várias opções de execução com base em um valor.
+
+13) ++i incrementa antes de usar; i++ incrementa depois.
+Porque ++i primeiro incrementa e depois usa o valor; i++ usa o valor e depois incrementa.
+
+14) int array[5];
+Porque essa é a forma correta de declarar um array com 5 inteiros em C.
+
+15) fgets()
+Porque fgets() é a forma segura de ler uma string com espaços da entrada padrão.
+
+16) void func();
+Porque a palavra-chave void indica que a função não retorna nenhum valor.
+
+17) 2
+Porque a divisão de dois inteiros em C descarta a parte decimal (divisão inteira).
+
+18) ==
+Porque == é o operador de igualdade em C. Um único = é atribuição.
+
+19) break
+Porque break encerra o loop imediatamente, saindo dele antes do final.
+
+20) struct - Estruturas para agrupar variáveis de tipos diferentes.
+
+21) fopen() - Função usada para abrir um arquivo.
+
+22) char - Tipo usado para representar caracteres.
+
+23) O tamanho em bytes do tipo int. - sizeof(int) retorna o tamanho do tipo em bytes.
+
+24) strcmp() - Função usada para comparar duas strings.
+
+25) int (ptr)(); - Declara um ponteiro para uma função que retorna int.
+
+26) Local ao bloco. - Variáveis dentro de um bloco têm escopo local.
+
+27) typedef - Usado para definir tipos personalizados.
+
+28) const - Modificador para declarar variáveis constantes.
+
+29) strcpy() - Função para copiar uma string.
+
+30) <stdio.h> - Cabeçalho que contém printf.
